@@ -5,4 +5,9 @@
  * to customize this controller
  */
 
-module.exports = {};
+module.exports = {
+  populate: ctx => {
+    ctx.send({ok: true});
+    console.log('Method initialized');
+  }
+};
